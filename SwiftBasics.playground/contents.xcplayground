@@ -3,5 +3,6 @@
     <pages>
         <page name='HelloWorld'/>
         <page name='Basics'/>
+        <page name='Operators'/>
     </pages>
 </playground>

@@ -1,3 +1,2 @@
-import UIKit
-
-var greeting = "Hello, playground"
+// Constants and Variables.
+// Type Annotations.
