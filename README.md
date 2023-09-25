@@ -12,7 +12,7 @@
     - Program Structure
     - Single Line Comment
     - Multiline Comment
-- ## Basics
+- [## Basics](SwiftBasics.playground/Pages/Basics.xcplaygroundpage/Contents.swift)
     - Constants
     - Variables
     - Type Annotations
