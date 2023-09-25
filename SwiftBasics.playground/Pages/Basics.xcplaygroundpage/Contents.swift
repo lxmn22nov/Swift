@@ -36,3 +36,53 @@ var name1: String = "Chris Evans";
 print("Name without semicolan in the statement:",name)
 print("Name with the semicolan in the statement:",name1);
 
+// Integers:
+/* Integers are either signed (positive, zero, or negative) or unsigned (positive or zero).
+   Swift provides signed and unsigned integers in 8, 16, 32, and 64 bit forms.
+   Integer types have capitalized names.
+ */
+// Integer Bounds: can access maximum(max) and minimum(min) by respective (max/min)properties.
+// UInt- Unsigned Integer.
+// Unsigned Integer for 8 bit, maximum and minimum values.
+let minValue = UInt8.min
+let maxValue = UInt8.max
+print("Minimum Unsigned value:",minValue)
+print("Maximum Unsigned value:",maxValue)
+
+// Signed Integer for 8 bit, maximum and minimum values.
+let minValue1 = Int8.min
+let maxValue1 = Int8.max
+print("Minimum Unsigned value:",minValue1)
+print("Maximum Unsigned value:",maxValue1)
+
+// Unsigned Integer for 32 bit, maximum and minimum values.
+let minValue2 = UInt32.min
+let maxValue2 = UInt32.max
+print("Minimum Unsigned value:",minValue2)
+print("Maximum Unsigned value:",maxValue2)
+
+// Signed Integer for 32 bit, maximum and minimum values.
+let minValue3 = Int32.min
+let maxValue3 = Int32.max
+print("Minimum Unsigned value:",minValue3)
+print("Maximum Unsigned value:",maxValue3)
+
+// Unsigned Integer for 64 bit, maximum and minimum values.
+let minValue4 = UInt64.min
+let maxValue4 = UInt64.max
+print("Minimum Unsigned value:",minValue4)
+print("Maximum Unsigned value:",maxValue4)
+
+// Signed Integer for 64 bit, maximum and minimum values.
+let minValue5 = Int64.min
+let maxValue5 = Int64.max
+print("Minimum Unsigned value:",minValue5)
+print("Maximum Unsigned value:",maxValue5)
+
+/* Swift provides two signed floating-point number types:
+ Float represents a 32-bit floating-point number.
+ Double represents a 64-bit floating-point number.
+ Float has a precision of 06 decimal digits.
+ Double has a precision of at least 15 decimal digits.
+ */
+
