@@ -31,7 +31,7 @@
     - Type Aliases
     - Booleans
     - Force Unwrapping
-- ## Operators
+- ## [Operators](SwiftBasics.playground/Pages/Operators.xcplaygroundpage/Contents.swift)
     - ### Terminology
         - Unary Operator
         - Binary Operator
