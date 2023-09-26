@@ -86,3 +86,14 @@ print("Maximum Unsigned value:",maxValue5)
  Double has a precision of at least 15 decimal digits.
  */
 
+/* Type Safe:
+    - Swift is a type-safe language.
+    - If part of our code requires a String, we can’t pass it an Int by mistake.
+    - performs type checks when compiling our code and flags any mismatched types as errors.
+*/
+/* Type Inference:
+    - Type inference is useful when we declare a constant or variable with an initial value. This is often done by assigning a literal value (or literal) to the constant or variable at the point that you declare it.
+*/
+let captainAmerica = 23     // captainAmerica is inferred to be of type Int.
+let pie = 3.1417             // pi is inferred to be of type Double.
+
