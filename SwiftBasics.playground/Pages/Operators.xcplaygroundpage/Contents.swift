@@ -45,4 +45,18 @@ print("Remainder Operator:",x6)
 var str = "Hello, " + "Swift"
 print("Concatenation:",str)
 
-
+// Compound Assignment Operators.
+// Swift provides combine assignment (=) with another operation(+,-,*,/).
+var d = 1
+// shorthand representation.
+d += 2              // d = d + 1
+print("Compound Addition Assignment Operator:",d)
+var e = 2
+e -= 1              // e = e - 1
+print("Compound Subtraction Assignment Operator:",e)
+var f = 5
+f *= 2              // f = f * 2
+print("Compound Multiplication Assignment Operator:",f)
+var g = 6
+g /= 2              // g = g / 2
+print("Compound Division Assignment Operator:",g)
