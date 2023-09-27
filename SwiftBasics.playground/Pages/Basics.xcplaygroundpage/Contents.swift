@@ -97,3 +97,64 @@ print("Maximum Unsigned value:",maxValue5)
 let captainAmerica = 23     // captainAmerica is inferred to be of type Int.
 let pie = 3.1417             // pi is inferred to be of type Double.
 
+// NUMERICAL LITERALS.
+// A decimal number, with no prefix.
+// A binary number, with a 0b prefix.
+// An octal number, with a 0o prefix.
+// A hexadecimal number, with a 0x prefix.
+
+let decimalInteger = 15
+let binaryInteger = 0b1111
+let octalInteger = 0o17
+let hexaDecimalInteger = 0xF
+
+print("Decimal:",decimalInteger)
+print("Binary:",binaryInteger)
+print("Octal:",octalInteger)
+print("Hexa Decimal:",hexaDecimalInteger)
+
+// NUMERIC TYPE CONVERSION.
+
+/* INTEGER CONVERSION.
+- The range of numbers that can be stored in an integer constant or variable is different for each numeric type.
+- An Int8 constant or variable can store numbers between -128 and 127, whereas
+  a UInt8(SIGNED) constant or variable can store numbers between 0 and 255.
+- A number that won’t fit into a constant or variable of a sized integer type is reported as an error when your code is compiled.
+
+let cannotBeNegative: UInt8 = -1        // UInt8 can't store -ve numbers and so this will report an error.
+let tooBig: Int8 = Int8.max + 1         // Int8 can't store a number larger than its maximum value and so                                           this will also report an error
+*/
+
+let twoThousand: UInt16 = 2000
+let one: UInt8 = 1
+let twoThousandAndOne = twoThousand + UInt16(one)
+print("Integer sum conversion:",twoThousandAndOne)
+// Because both sides of the addition are now of type UInt16, the addition is allowed. The output constant (twoThousandAndOne) is inferred to be of type UInt16, because it’s the sum of two UInt16 values.
+// Integer and Floating point Conversion:
+let three = 3
+let pointOneFourOne = 0.141
+let pie1 = Double(three) + pointOneFourOne
+print("Integer and Floating Point Conversion:",pie1)
+
+// TYPE ALIASES
+// Define an alt. name for an existing type. We define type aliases with the typealias "keyword".
+typealias electronSpeed = UInt16
+var maxSpeedElectron = electronSpeed.max
+print("TypeAlias example:",maxSpeedElectron)
+
+// BOOLEANS.
+// Swift has a basic Boolean type, called Bool.
+// Boolean values are referred to as logical, because they can only ever be true or false.
+
+let captainAmericaIsAnAvenger = true
+let batmanIsAnAvenger = false
+
+if batmanIsAnAvenger {
+    print("The World is in safer hands.")
+}
+else {
+    print("The World is a mess!")
+}
+// Boolean values are particularly useful when you work with conditional statements.
+
+// FORCE UNWRAPPING
