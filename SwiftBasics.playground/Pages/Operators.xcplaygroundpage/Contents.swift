@@ -14,6 +14,10 @@ print("Minus Three:",minusThree)
 print("Plus Three:",plusThree)
 
 // Ternary Operators: operates on triple operand(eg: a ? b : c)
+// takes the form (question ? answer1 : answer2).
+// A shortcut for evaluating one of two expressions based on whether question is true or false. If question is true, it evaluates answer1 and returns its value; otherwise, it evaluates answer2 and returns its value.
+
+
 // Assignment Operator: initializes or updates the value of operands.
 var b = 3
 var c = 6
@@ -60,3 +64,23 @@ print("Compound Multiplication Assignment Operator:",f)
 var g = 6
 g /= 2              // g = g / 2
 print("Compound Division Assignment Operator:",g)
+
+// COMPARISON OPERATORS.
+/*
+ Equal to (a == b)
+ Not equal to (a != b)
+ Greater than (a > b)
+ Less than (a < b)
+ Greater than or equal to (a >= b)
+ Less than or equal to (a <= b)
+ */
+
+// Comparison operators are often used in conditional statements.
+// Each of the comparison operators returns a Bool value to indicate whether or not the statement is true.
+
+1 == 1      // true
+2 != 1      // true
+2 > 1       // true
+1 < 2       // true
+1 >= 1      // true
+2 <= 1      // false
