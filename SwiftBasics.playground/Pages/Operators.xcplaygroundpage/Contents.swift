@@ -13,10 +13,13 @@ print("Three",Three)
 print("Minus Three:",minusThree)
 print("Plus Three:",plusThree)
 
-// Ternary Operators: operates on triple operand(eg: a ? b : c)
+// TERNARY CONDITIONAL OPERATOR: operates on triple operand(eg: a ? b : c)
 // takes the form (question ? answer1 : answer2).
 // A shortcut for evaluating one of two expressions based on whether question is true or false. If question is true, it evaluates answer1 and returns its value; otherwise, it evaluates answer2 and returns its value.
-
+let fruits = 10
+let healthy = true
+let fitness: Int = fruits + (healthy ? 50 : 30)
+print("Fitness percentage increased to:",fitness)
 
 // Assignment Operator: initializes or updates the value of operands.
 var b = 3
@@ -84,3 +87,6 @@ print("Compound Division Assignment Operator:",g)
 1 < 2       // true
 1 >= 1      // true
 2 <= 1      // false
+
+// NIL COALESCING OPERATOR
+

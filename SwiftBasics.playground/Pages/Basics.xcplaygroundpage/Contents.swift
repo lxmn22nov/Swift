@@ -155,6 +155,4 @@ if batmanIsAnAvenger {
 else {
     print("The World is a mess!")
 }
-// Boolean values are particularly useful when you work with conditional statements.
-
-// FORCE UNWRAPPING
+// NOTE: Boolean values are particularly useful when you work with conditional statements.
