@@ -50,7 +50,7 @@
             - Logical AND (a && b)
             - Logical OR (a || b)
         - Combining Logical Operators
-- ## [Strings and Characters](SwiftBasics.playground/Pages/Strings and Characters.xcplaygroundpage/Contents.swift)
+- ## [Strings and Characters](SwiftBasics.playground/Pages/StringsAndCharacters.xcplaygroundpage/Contents.swift)
   - String Literals
   - Multi-Line String Literals
   - Extended String Delimiters
