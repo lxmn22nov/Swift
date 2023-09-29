@@ -184,5 +184,3 @@ else {
     print("Not Allowed!!!")
 }
 // NOTE: The Swift logical operators && and || are left-associative, compound expressions with multiple logical operators evaluate the leftmost subexpression first.
-
-
