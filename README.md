@@ -70,7 +70,7 @@
     - UTF-8 Representation
     - UTF-16 Representation
   - Unicode Scalar Representation
-- ## [Control Flow](SwiftBasics.playground/Pages/Control Flow.xcplaygroundpage/Contents.swift)
+- ## [Control Flow](SwiftBasics.playground/Pages/ControlFlow.xcplaygroundpage/Contents.swift)
   - For-in Loops
   - While Loops
     - While
