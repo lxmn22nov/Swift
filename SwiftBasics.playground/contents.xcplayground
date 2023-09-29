@@ -4,7 +4,7 @@
         <page name='HelloWorld'/>
         <page name='Basics'/>
         <page name='Operators'/>
-        <page name='Strings and Characters'/>
-        <page name='Control Flow'/>
+        <page name='StringsAndCharacters'/>
+        <page name='ControlFlow'/>
     </pages>
 </playground>
