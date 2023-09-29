@@ -50,5 +50,40 @@
             - Logical AND (a && b)
             - Logical OR (a || b)
         - Combining Logical Operators
-        - Explicit Parentheses
+- ## [Strings and Characters]
+  - String Literals
+  - Multi-Line String Literals
+  - Extended String Delimiters
+  - String Mutability
+  - Strings are value types
+  - Concatenating strings and characters
+  - String Interpolation
+  - Unicode
+  - Accessing and modifying strings
+    - String Indices
+    - Inserting and Removing
+  - Substrings
+  - Comparing Strings
+    - String and Character equality
+    - Prefix and Suffix equality
+  - Unicode Representation of Strings
+    - UTF-8 Representation
+    - UTF-16 Representation
+  - Unicode Scalar Representation
+- ## [Control Flow]
+  - For-in Loops
+  - While Loops
+    - While
+    - Repeat-While
+  - Conditional Statements
+    - If
+    - Switch
+  - Control Transfer Statements
+    - Continue
+    - Break
+    - Fallthrough
+    - Labeled Statements
+  - Early Exit
+  - Deferred Actions
+  - Checking API Availability
 ### Stay Tuned for more...✌🏼
