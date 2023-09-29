@@ -135,7 +135,54 @@ for friend in friends[2...] {
 for friend in friends[...2] {
     print("Friends name starts displaying from:",friend)
 }
-
+// The half-open range operator also has a one-sided form that’s written with only its final value. Just like when you include a value on both sides, the final value isn’t part of the range.
 for friend in friends[..<2] {
     print("Friends name starts displaying from:",friend)
 }
+
+// LOGICAL OPERATORS: modify or combine the Boolean logic values true and false.
+/* Swift supports the three standard logical operators found in C-based languages:
+ Logical NOT (!a)
+ Logical AND (a && b)
+ Logical OR (a || b)
+ */
+
+// LOGICAL NOT OPERATOR(!a): inverts a Bool value, so that true becomes false and false becomes true.
+let thorIsmarvalCharacter = false
+
+if !thorIsmarvalCharacter {
+    print("Banned on planet earth!")
+}
+
+// LOGICAL AND OPERATOR( a && b): creates logical expressions where both values must be true for the overall expression to also be true.
+let doorPassword = true
+let doorFingerPrint = false
+
+if doorPassword && doorFingerPrint {
+    print("Welcome!")
+} 
+else {
+    print("Not Allowed!")
+}
+
+// LOGICAL OR OPERATOR( a || b): create logical expressions in which only one of the two values has to be true for the overall expression to be true.
+let doorPasskey = true
+let retinaScan = false
+
+if doorPasskey || retinaScan {
+    print("Welcome!")
+}
+else {
+    print("Not Allowed!")
+}
+
+// COMBINING LOGICAL OPERATORS
+if doorPassword && doorFingerPrint || doorPasskey || retinaScan {
+    print("Welcome!!!")
+}
+else {
+    print("Not Allowed!!!")
+}
+// NOTE: The Swift logical operators && and || are left-associative, compound expressions with multiple logical operators evaluate the leftmost subexpression first.
+
+
