@@ -98,3 +98,44 @@ var friendDogBread: String?   // defaults to nil.
 var dogBread = friendDogBread ?? myDogBreed
 // friendDogBread is nil, so dogBread is set to the default of "Beagle".
 print("Dog Bread:",dogBread)
+
+// RANGE OPERATORS: expresses the range of the values.
+
+/* Closed Range Operators:
+ - The closed range operator (a...b) defines a range that runs from a to b and includes the values "a" and "b".
+ - The value of "a" must not be greater than "b".
+*/
+print("Multiple of 5:")
+for index in 1...10 {
+    print("5 x \(index) = \(index * 5)")
+}
+/* NOTE: The closed range operator is useful when iterating over a range in which you want all of the values to be used, such as with a for-in loop. */
+
+/* HALF-OPEN RANGE OPERATOR:
+  - The half-open range operator (a..<b) defines a range that runs from a to b, but doesn’t include b. 
+  - It’s said to be half-open because it contains its first value, but not its final value.
+ */
+let friends = ["Aman", "Ritesh","Jagmohan","Eklavya","Lakshay","Himanshu","Ashish","Aditi"]
+let count = friends.count
+
+for i in 0..<count {
+    print("Person \(i+1) name is \(friends[i]).")
+}
+/* Half-open ranges are particularly useful when you work with zero-based lists such as arrays, where it’s useful to count up to (but not including) the length of the list. */
+
+/* ONE SIDED RANGE OPERATOR:
+ - The closed range operator has an alternative form for ranges that continue as far as possible in one direction.
+ */
+let friends1 = ["Aman", "Ritesh","Jagmohan","Eklavya","Lakshay","Himanshu","Ashish","Aditi"]
+
+for friend in friends[2...] {
+    print("Friends name starts displaying from:",friend)
+}
+
+for friend in friends[...2] {
+    print("Friends name starts displaying from:",friend)
+}
+
+for friend in friends[..<2] {
+    print("Friends name starts displaying from:",friend)
+}
