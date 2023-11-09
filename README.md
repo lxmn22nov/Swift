@@ -1,5 +1,6 @@
 
-![swift-banner](https://github.com/lxmn22nov/Swift/assets/126524753/279bf903-bed3-412e-8875-e728c5b39862)
+![Untitled (3)](https://github.com/lxmn22nov/Swift/assets/126524753/0cf2354b-96e2-4699-9c3b-9dc737a50f81)
+
 
 # Swift Basics
 
