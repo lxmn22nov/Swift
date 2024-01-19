@@ -7,5 +7,6 @@
         <page name='StringsAndCharacters'/>
         <page name='ControlFlow'/>
         <page name='Functions'/>
+        <page name='EnumsAndIndirectEnums'/>
     </pages>
 </playground>

@@ -91,3 +91,25 @@ var calculateNumber: Int {
     return num1 + num2
 }
 // ===========================================================================
+let birthday : String = "Birthday"
+let anniversary: String = "Happy Anniversary"
+
+let space = " "
+let exclamation: Character = "!"
+print(type(of: exclamation))
+
+func buildSign(for birthday: String, name: String) -> String {
+    let greet = "Happy " + birthday + space + name + String(exclamation)
+    return greet
+}
+//buildSign(for: birthday, name: "Laxman")
+func graduationFor(name: String, year: Int) -> String {
+    let greet = "Congratulations " + name + String(exclamation) + "\nClass of \(year)"
+    return greet
+}
+//print(graduationFor(name: "Padma", year: 2023))
+func costOf(sign: String) -> Int {
+    let count = 20 + (2 * sign.count )
+    return count
+}
+print(costOf(sign: "Happy Birthday Grandma!"))
