@@ -22,7 +22,6 @@ MyTown.citizens.append("Ritesh")
 print(MyTown.citizens.count)
 
 // Generalizing the struct.
-
 struct Town1 {
     let name1: String
     var citizens1: [String]
@@ -39,12 +38,19 @@ struct Town1 {
     func fortify() {
         print("Defences increased.")
     }
+    // creating function for harvesting rice, but to make changes inside the struct we have to mark this method "mutating".
+    mutating func harvestRice() {
+        resources1["Rice"] = 100
+//        print(resources1)
+    }
 }
 
 var anotherTown = Town1(name1: "Bristole", citizens1: ["Derek", "Phil", "Jane"], resources1: ["Bread": 500, "Cereals": 990, "Eggs": 3000])
 
+anotherTown.harvestRice()
 print(anotherTown.name1)
 print(anotherTown.citizens1)
+print(anotherTown.resources1)
 print(anotherTown.resources1["Eggs"]!)
 
 var ghostTown = Town1(name1: "McGhostFace", citizens1: [] , resources1: ["Tumbleweed": 1])
