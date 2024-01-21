@@ -8,5 +8,6 @@
         <page name='ControlFlow'/>
         <page name='Functions'/>
         <page name='EnumsAndIndirectEnums'/>
+        <page name='Classes'/>
     </pages>
 </playground>
