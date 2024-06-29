@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F57EC942C305E5300FE326B /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F57EC932C305E5300FE326B /* GridView.swift */; };
+		5F57EC972C3072BD00FE326B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F57EC962C3072BD00FE326B /* ListView.swift */; };
+		5F57EC9A2C3091FD00FE326B /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F57EC992C3091FD00FE326B /* ButtonView.swift */; };
 		5FE3971A2C2FF9F20079CC4C /* SwiftUIPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE397192C2FF9F20079CC4C /* SwiftUIPlaygroundApp.swift */; };
 		5FE3971C2C2FF9F20079CC4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3971B2C2FF9F20079CC4C /* ContentView.swift */; };
 		5FE3971E2C2FF9F40079CC4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE3971D2C2FF9F40079CC4C /* Assets.xcassets */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F57EC932C305E5300FE326B /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		5F57EC962C3072BD00FE326B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		5F57EC992C3091FD00FE326B /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		5FE397162C2FF9F20079CC4C /* SwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE397192C2FF9F20079CC4C /* SwiftUIPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPlaygroundApp.swift; sourceTree = "<group>"; };
 		5FE3971B2C2FF9F20079CC4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +56,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F57EC922C305E3900FE326B /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				5F57EC932C305E5300FE326B /* GridView.swift */,
+			);
+			path = Grids;
+			sourceTree = "<group>";
+		};
+		5F57EC952C3072AB00FE326B /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				5F57EC962C3072BD00FE326B /* ListView.swift */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		5F57EC982C3091EE00FE326B /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				5F57EC992C3091FD00FE326B /* ButtonView.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		5FE3970D2C2FF9F20079CC4C = {
 			isa = PBXGroup;
 			children = (
@@ -113,10 +143,13 @@
 		5FE3972A2C2FFCB50079CC4C /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				5FE397422C3039250079CC4C /* ScrollViews */,
+				5F57EC982C3091EE00FE326B /* Buttons */,
+				5F57EC922C305E3900FE326B /* Grids */,
 				5FE397312C3002CA0079CC4C /* Images */,
+				5F57EC952C3072AB00FE326B /* Lists */,
 				5FE3973F2C3033650079CC4C /* Loops */,
 				5FE397392C302B2A0079CC4C /* Padding */,
+				5FE397422C3039250079CC4C /* ScrollViews */,
 				5FE3972E2C2FFF250079CC4C /* Shapes */,
 				5FE3973C2C3030CC0079CC4C /* Spacers */,
 				5FE397342C300F5F0079CC4C /* Stacks */,
@@ -261,15 +294,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FE397332C3002DC0079CC4C /* ImageView.swift in Sources */,
+				5F57EC972C3072BD00FE326B /* ListView.swift in Sources */,
 				5FE397442C3039430079CC4C /* ScrollViewModule.swift in Sources */,
 				5FE3972D2C2FFCD10079CC4C /* TextView.swift in Sources */,
 				5FE3973E2C3030D90079CC4C /* SpacerView.swift in Sources */,
 				5FE3971C2C2FF9F20079CC4C /* ContentView.swift in Sources */,
+				5F57EC9A2C3091FD00FE326B /* ButtonView.swift in Sources */,
 				5FE397382C3019560079CC4C /* ChallengeView.swift in Sources */,
 				5FE397302C2FFF3D0079CC4C /* ShapeView.swift in Sources */,
 				5FE3971A2C2FF9F20079CC4C /* SwiftUIPlaygroundApp.swift in Sources */,
 				5FE3973B2C302B390079CC4C /* PaddingView.swift in Sources */,
 				5FE397412C3033740079CC4C /* LoopView.swift in Sources */,
+				5F57EC942C305E5300FE326B /* GridView.swift in Sources */,
 				5FE397362C300F750079CC4C /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
