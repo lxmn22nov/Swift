@@ -11,6 +11,7 @@
 		5F57EC972C3072BD00FE326B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F57EC962C3072BD00FE326B /* ListView.swift */; };
 		5F57EC9A2C3091FD00FE326B /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F57EC992C3091FD00FE326B /* ButtonView.swift */; };
 		5F9FDB942C31CB31008E16C0 /* ControlFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9FDB932C31CB31008E16C0 /* ControlFlowView.swift */; };
+		5F9FDB972C31D673008E16C0 /* ViewExtractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9FDB962C31D673008E16C0 /* ViewExtractionView.swift */; };
 		5FE3971A2C2FF9F20079CC4C /* SwiftUIPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE397192C2FF9F20079CC4C /* SwiftUIPlaygroundApp.swift */; };
 		5FE3971C2C2FF9F20079CC4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3971B2C2FF9F20079CC4C /* ContentView.swift */; };
 		5FE3971E2C2FF9F40079CC4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE3971D2C2FF9F40079CC4C /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		5F57EC962C3072BD00FE326B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		5F57EC992C3091FD00FE326B /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		5F9FDB932C31CB31008E16C0 /* ControlFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlowView.swift; sourceTree = "<group>"; };
+		5F9FDB962C31D673008E16C0 /* ViewExtractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtractionView.swift; sourceTree = "<group>"; };
 		5FE397162C2FF9F20079CC4C /* SwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE397192C2FF9F20079CC4C /* SwiftUIPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPlaygroundApp.swift; sourceTree = "<group>"; };
 		5FE3971B2C2FF9F20079CC4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 				5F9FDB932C31CB31008E16C0 /* ControlFlowView.swift */,
 			);
 			path = ControlFlow;
+			sourceTree = "<group>";
+		};
+		5F9FDB952C31D660008E16C0 /* ViewExtraction */ = {
+			isa = PBXGroup;
+			children = (
+				5F9FDB962C31D673008E16C0 /* ViewExtractionView.swift */,
+			);
+			path = ViewExtraction;
 			sourceTree = "<group>";
 		};
 		5FE3970D2C2FF9F20079CC4C = {
@@ -165,6 +175,7 @@
 				5FE3973C2C3030CC0079CC4C /* Spacers */,
 				5FE397342C300F5F0079CC4C /* Stacks */,
 				5FE3972B2C2FFCBF0079CC4C /* Text */,
+				5F9FDB952C31D660008E16C0 /* ViewExtraction */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -314,6 +325,7 @@
 				5FE397382C3019560079CC4C /* ChallengeView.swift in Sources */,
 				5FE397302C2FFF3D0079CC4C /* ShapeView.swift in Sources */,
 				5F9FDB942C31CB31008E16C0 /* ControlFlowView.swift in Sources */,
+				5F9FDB972C31D673008E16C0 /* ViewExtractionView.swift in Sources */,
 				5FE3971A2C2FF9F20079CC4C /* SwiftUIPlaygroundApp.swift in Sources */,
 				5FE3973B2C302B390079CC4C /* PaddingView.swift in Sources */,
 				5FE397412C3033740079CC4C /* LoopView.swift in Sources */,
