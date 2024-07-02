@@ -25,6 +25,8 @@
 		5FE3973E2C3030D90079CC4C /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3973D2C3030D90079CC4C /* SpacerView.swift */; };
 		5FE397412C3033740079CC4C /* LoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE397402C3033740079CC4C /* LoopView.swift */; };
 		5FE397442C3039430079CC4C /* ScrollViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE397432C3039430079CC4C /* ScrollViewModule.swift */; };
+		5FF87CCC2C3404BC00400A5C /* TextfieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF87CCB2C3404BC00400A5C /* TextfieldView.swift */; };
+		5FF87CCE2C340A7A00400A5C /* LoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF87CCD2C340A7A00400A5C /* LoginPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		5FE3973D2C3030D90079CC4C /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		5FE397402C3033740079CC4C /* LoopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopView.swift; sourceTree = "<group>"; };
 		5FE397432C3039430079CC4C /* ScrollViewModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewModule.swift; sourceTree = "<group>"; };
+		5FF87CCB2C3404BC00400A5C /* TextfieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldView.swift; sourceTree = "<group>"; };
+		5FF87CCD2C340A7A00400A5C /* LoginPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +167,7 @@
 		5FE3972A2C2FFCB50079CC4C /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				5FF87CCA2C34049300400A5C /* TextFields */,
 				5F57EC982C3091EE00FE326B /* Buttons */,
 				5F9FDB922C31CB1B008E16C0 /* ControlFlow */,
 				5F57EC922C305E3900FE326B /* Grids */,
@@ -243,6 +248,15 @@
 				5FE397432C3039430079CC4C /* ScrollViewModule.swift */,
 			);
 			path = ScrollViews;
+			sourceTree = "<group>";
+		};
+		5FF87CCA2C34049300400A5C /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				5FF87CCB2C3404BC00400A5C /* TextfieldView.swift */,
+				5FF87CCD2C340A7A00400A5C /* LoginPageView.swift */,
+			);
+			path = TextFields;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,11 +340,13 @@
 				5FE397302C2FFF3D0079CC4C /* ShapeView.swift in Sources */,
 				5F9FDB942C31CB31008E16C0 /* ControlFlowView.swift in Sources */,
 				5F9FDB972C31D673008E16C0 /* ViewExtractionView.swift in Sources */,
+				5FF87CCC2C3404BC00400A5C /* TextfieldView.swift in Sources */,
 				5FE3971A2C2FF9F20079CC4C /* SwiftUIPlaygroundApp.swift in Sources */,
 				5FE3973B2C302B390079CC4C /* PaddingView.swift in Sources */,
 				5FE397412C3033740079CC4C /* LoopView.swift in Sources */,
 				5F57EC942C305E5300FE326B /* GridView.swift in Sources */,
 				5FE397362C300F750079CC4C /* StackView.swift in Sources */,
+				5FF87CCE2C340A7A00400A5C /* LoginPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
